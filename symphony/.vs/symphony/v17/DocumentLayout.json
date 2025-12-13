@@ -1,70 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\symphony\\",
+  "WorkspaceRootPath": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206091243_chajao2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:symphony\\Migrations\\20251206091243_chajao2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\models\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206091019_chajao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:symphony\\Migrations\\20251206091019_chajao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206090743_mymigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:symphony\\Migrations\\20251206090743_mymigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\models\\coursetopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\coursetopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\migrations\\20251204092459_all.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\migrations\\20251204092459_all.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\models\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206090743_mymigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\models\\coursetopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\coursetopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\migrations\\20251204092459_all.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\migrations\\20251204092459_all.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\dell\\source\\repos\\symphony\\symphony\\symphony.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\symphony.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\symphony.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\migrations\\20251206091243_chajao2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\migrations\\20251206091243_chajao2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|c:\\users\\asc\\documents\\symphony_project\\symphony\\symphony\\migrations\\20251206091019_chajao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDFC06-DC51-4582-94ED-C7E14E85716E}|symphony\\symphony.csproj|solutionrelative:symphony\\migrations\\20251206091019_chajao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,145 +73,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "result.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\result.cs",
-              "RelativeDocumentMoniker": "symphony\\Models\\result.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\result.cs",
-              "RelativeToolTip": "symphony\\Models\\result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T09:26:17.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20251206091243_chajao2.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206091243_chajao2.cs",
-              "RelativeDocumentMoniker": "symphony\\Migrations\\20251206091243_chajao2.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206091243_chajao2.cs",
-              "RelativeToolTip": "symphony\\Migrations\\20251206091243_chajao2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T09:12:43.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20251206091019_chajao.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206091019_chajao.cs",
-              "RelativeDocumentMoniker": "symphony\\Migrations\\20251206091019_chajao.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206091019_chajao.cs",
-              "RelativeToolTip": "symphony\\Migrations\\20251206091019_chajao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T09:10:19.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20251206090743_mymigrations.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206090743_mymigrations.cs",
-              "RelativeDocumentMoniker": "symphony\\Migrations\\20251206090743_mymigrations.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206090743_mymigrations.cs",
-              "RelativeToolTip": "symphony\\Migrations\\20251206090743_mymigrations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T09:07:43.34Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "coursetopic.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\coursetopic.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\coursetopic.cs",
               "RelativeDocumentMoniker": "symphony\\Models\\coursetopic.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\coursetopic.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\coursetopic.cs",
               "RelativeToolTip": "symphony\\Models\\coursetopic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T08:46:29.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T08:46:29.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "admin.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\admin.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\admin.cs",
               "RelativeDocumentMoniker": "symphony\\Models\\admin.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\admin.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\admin.cs",
               "RelativeToolTip": "symphony\\Models\\admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T08:42:12.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T08:42:12.348Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "20251204092459_all.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251204092459_all.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Migrations\\20251204092459_all.cs",
               "RelativeDocumentMoniker": "symphony\\Migrations\\20251204092459_all.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251204092459_all.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Migrations\\20251204092459_all.cs",
               "RelativeToolTip": "symphony\\Migrations\\20251204092459_all.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:25:00.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T09:25:00.266Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "course.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\course.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\course.cs",
               "RelativeDocumentMoniker": "symphony\\Models\\course.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\course.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\course.cs",
               "RelativeToolTip": "symphony\\Models\\course.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:41:21.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T08:41:21.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "student.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\student.cs",
+              "RelativeDocumentMoniker": "symphony\\Models\\student.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\student.cs",
+              "RelativeToolTip": "symphony\\Models\\student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:57:23.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "teacher.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\teacher.cs",
+              "RelativeDocumentMoniker": "symphony\\Models\\teacher.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\teacher.cs",
+              "RelativeToolTip": "symphony\\Models\\teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:50:11.59Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "student.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\student.cs",
-              "RelativeDocumentMoniker": "symphony\\Models\\student.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\student.cs",
-              "RelativeToolTip": "symphony\\Models\\student.cs",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\appsettings.json",
+              "RelativeDocumentMoniker": "symphony\\appsettings.json",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\appsettings.json",
+              "RelativeToolTip": "symphony\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T09:57:23.361Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-02T08:49:54.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "teacher.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\teacher.cs",
-              "RelativeDocumentMoniker": "symphony\\Models\\teacher.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\teacher.cs",
-              "RelativeToolTip": "symphony\\Models\\teacher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T09:50:11.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Program.cs",
               "RelativeDocumentMoniker": "symphony\\Program.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Program.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Program.cs",
               "RelativeToolTip": "symphony\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -220,11 +174,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20251206090743_mymigrations.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206090743_mymigrations.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206090743_mymigrations.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206090743_mymigrations.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Dell\\source\\repos\\symphony\\symphony\\Migrations\\20251206090743_mymigrations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T09:07:43.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20251206091019_chajao.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Migrations\\20251206091019_chajao.cs",
+              "RelativeDocumentMoniker": "symphony\\Migrations\\20251206091019_chajao.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Migrations\\20251206091019_chajao.cs",
+              "RelativeToolTip": "symphony\\Migrations\\20251206091019_chajao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T09:10:19.711Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "20251206091243_chajao2.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Migrations\\20251206091243_chajao2.cs",
+              "RelativeDocumentMoniker": "symphony\\Migrations\\20251206091243_chajao2.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Migrations\\20251206091243_chajao2.cs",
+              "RelativeToolTip": "symphony\\Migrations\\20251206091243_chajao2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T09:12:43.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "result.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\result.cs",
+              "RelativeDocumentMoniker": "symphony\\Models\\result.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\result.cs",
+              "RelativeToolTip": "symphony\\Models\\result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T09:26:17.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "symphony\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Controllers\\HomeController.cs",
               "RelativeToolTip": "symphony\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -232,24 +234,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MyContext.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\MyContext.cs",
               "RelativeDocumentMoniker": "symphony\\Models\\MyContext.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\MyContext.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\MyContext.cs",
               "RelativeToolTip": "symphony\\Models\\MyContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T09:26:52.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T09:26:52.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "users.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\users.cs",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\users.cs",
               "RelativeDocumentMoniker": "symphony\\Models\\users.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\Models\\users.cs",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\Models\\users.cs",
               "RelativeToolTip": "symphony\\Models\\users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -257,27 +258,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "symphony.csproj",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\symphony.csproj",
+              "DocumentMoniker": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\symphony.csproj",
               "RelativeDocumentMoniker": "symphony\\symphony.csproj",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\symphony.csproj",
+              "ToolTip": "C:\\Users\\asc\\Documents\\Symphony_project\\symphony\\symphony\\symphony.csproj",
               "RelativeToolTip": "symphony\\symphony.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-02T09:27:18.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\appsettings.json",
-              "RelativeDocumentMoniker": "symphony\\appsettings.json",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\symphony\\symphony\\appsettings.json",
-              "RelativeToolTip": "symphony\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-02T08:49:54.786Z"
             }
           ]
         }
