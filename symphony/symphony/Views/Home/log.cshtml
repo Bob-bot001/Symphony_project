@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "logreg";
+}
+
+
+ 
+
+    <div class="auth-wrapper">
+        <div class="auth-card glass">
+            <h2 class="title">Welcome Back</h2>
+            <p class="sub">Login to continue your journey</p>
+
+            <form>
+                <div class="input-group">
+                    <input type="email" placeholder="Enter Email">
+                </div>
+
+                <div class="input-group">
+                    <input type="password" placeholder="Password">
+                </div>
+
+                <button class="btn-main">Login</button>
+
+                <p class="switch">
+                    Not registered?
+                <a asp-controller="Home" asp-action="register">Create an account</a>
+                </p>
+            </form>
+
+        </div>
+    </div>
+
+
+
+   

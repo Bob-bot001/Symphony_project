@@ -94,14 +94,14 @@ namespace symphony.Migrations
                     b.Property<string>("student_Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("student_age")
-                        .HasColumnType("int");
+                    b.Property<string>("student_address")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("student_email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("student_password")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("student_phone")
+                        .HasColumnType("int");
 
                     b.HasKey("student_Id");
 

@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Check Results";
+}
+
+<div class="page-header">
+    <div class="container">
+        <h1 data-aos="fade-up">Check Results</h1>
+        <div class="breadcrumb" data-aos="fade-up" data-aos-delay="100">
+       
+        </div>
+    </div>
+</div>
+
+<section class="py-5">
+    <div class="container">
+
+        <!-- Search Card -->
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-5">
+                <div class="card border-0 shadow-lg mb-5">
+                    <div class="card-body p-4">
+                        <h4 class="text-center mb-4">Enter Your Details</h4>
+
+                        <form id="resultForm">
+                            <div class="mb-3">
+                                <label class="form-label">Roll Number</label>
+                                <input type="text" class="form-control form-control-lg" id="rollNumber" placeholder="e.g. SL2024001" required />
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-primary btn-lg" type="submit">Search Result</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Found -->
+        <div id="resultCard" class="row justify-content-center d-none">
+            <!-- Same content from results.html -->
+        </div>
+
+        <!-- Not Found -->
+        <div id="resultNotFound" class="row justify-content-center d-none">
+            <!-- Same content -->
+        </div>
+
+    </div>
+</section>

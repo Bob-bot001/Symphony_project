@@ -1,0 +1,171 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "courses";
+}
+
+<div class="page-header">
+    <div class="container">
+        <h1 data-aos="fade-up">Our Courses</h1>
+    </div>
+</div>
+<section class="py-5">
+    <div class="container">
+        <!-- Filters -->
+        <div class="row mb-5 g-3">
+            <div class="col-md-8">
+                <div class="d-flex flex-wrap gap-2">
+                    <select class="form-select w-auto" id="categoryFilter">
+                        <option value="all">All Categories</option>
+                        <option value="programming">Programming</option>
+                        <option value="networking">Networking</option>
+                        <option value="database">Database</option>
+                        <option value="web">Web Development</option>
+                        <option value="cloud">Cloud Computing</option>
+                        <option value="security">Cyber Security</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text bg-white"><i class="bi bi-search"></i></span>
+                    <input type="text" class="form-control" id="courseSearch" placeholder="Search courses...">
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Grid -->
+        <div class="row g-4" id="courseGrid">
+            <!-- Java Course -->
+            <div class="col-md-6 col-lg-4 course-card-item" data-category="programming">
+                <div class="card h-100 border-0 shadow-sm course-card hover-lift">
+                    <div class="card-body p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 p-3 mb-4 bg-orange text-white" style="--bs-bg-opacity: .1; color: #f97316!important;">
+                            <i class="bi bi-java fs-2"></i>
+                        </div>
+                        <h5 class="card-title mb-3 course-title">Java Full Stack Development</h5>
+                        <p class="card-text text-secondary mb-4 course-description">Master Java, Spring Boot, React, and more. Become a complete full-stack developer.</p>
+                        <div class="d-flex justify-content-between align-items-center border-top pt-3">
+                            <small class="text-muted"><i class="bi bi-clock me-1"></i> 6 Months</small>
+                            <small class="text-muted"><i class="bi bi-bar-chart me-1"></i> Beginner</small>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-top-0 p-4 pt-0">
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Network Course -->
+            <div class="col-md-6 col-lg-4 course-card-item" data-category="networking">
+                <div class="card h-100 border-0 shadow-sm course-card hover-lift">
+                    <div class="card-body p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 p-3 mb-4 bg-green text-white" style="--bs-bg-opacity: .1; color: #22c55e!important;">
+                            <i class="bi bi-router fs-2"></i>
+                        </div>
+                        <h5 class="card-title mb-3 course-title">Network Engineering (CCNA)</h5>
+                        <p class="card-text text-secondary mb-4 course-description">Learn networking fundamentals, routing, switching, and network security protocols.</p>
+                        <div class="d-flex justify-content-between align-items-center border-top pt-3">
+                            <small class="text-muted"><i class="bi bi-clock me-1"></i> 4 Months</small>
+                            <small class="text-muted"><i class="bi bi-bar-chart me-1"></i> Intermediate</small>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-top-0 p-4 pt-0">
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Database Course -->
+            <div class="col-md-6 col-lg-4 course-card-item" data-category="database">
+                <div class="card h-100 border-0 shadow-sm course-card hover-lift">
+                    <div class="card-body p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 p-3 mb-4 bg-purple text-white" style="--bs-bg-opacity: .1; color: #8b5cf6!important;">
+                            <i class="bi bi-database fs-2"></i>
+                        </div>
+                        <h5 class="card-title mb-3 course-title">Oracle Database Admin</h5>
+                        <p class="card-text text-secondary mb-4 course-description">Comprehensive training on Oracle SQL, PL/SQL, and database management skills.</p>
+                        <div class="d-flex justify-content-between align-items-center border-top pt-3">
+                            <small class="text-muted"><i class="bi bi-clock me-1"></i> 3 Months</small>
+                            <small class="text-muted"><i class="bi bi-bar-chart me-1"></i> Advanced</small>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-top-0 p-4 pt-0">
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Dev Course -->
+            <div class="col-md-6 col-lg-4 course-card-item" data-category="web">
+                <div class="card h-100 border-0 shadow-sm course-card hover-lift">
+                    <div class="card-body p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 p-3 mb-4 bg-blue text-white" style="--bs-bg-opacity: .1; color: #3b82f6!important;">
+                            <i class="bi bi-window-sidebar fs-2"></i>
+                        </div>
+                        <h5 class="card-title mb-3 course-title">Web Design & Development</h5>
+                        <p class="card-text text-secondary mb-4 course-description">Create stunning websites using HTML5, CSS3, JavaScript, and modern frameworks.</p>
+                        <div class="d-flex justify-content-between align-items-center border-top pt-3">
+                            <small class="text-muted"><i class="bi bi-clock me-1"></i> 4 Months</small>
+                            <small class="text-muted"><i class="bi bi-bar-chart me-1"></i> Beginner</small>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-top-0 p-4 pt-0">
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cloud Course -->
+            <div class="col-md-6 col-lg-4 course-card-item" data-category="cloud">
+                <div class="card h-100 border-0 shadow-sm course-card hover-lift">
+                    <div class="card-body p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 p-3 mb-4 bg-cyan text-white" style="--bs-bg-opacity: .1; color: #06b6d4!important;">
+                            <i class="bi bi-cloud fs-2"></i>
+                        </div>
+                        <h5 class="card-title mb-3 course-title">Cloud Computing with AWS</h5>
+                        <p class="card-text text-secondary mb-4 course-description">Get certified in Amazon Web Services. Learn to deploy and manage cloud infrastructure.</p>
+                        <div class="d-flex justify-content-between align-items-center border-top pt-3">
+                            <small class="text-muted"><i class="bi bi-clock me-1"></i> 3 Months</small>
+                            <small class="text-muted"><i class="bi bi-bar-chart me-1"></i> Intermediate</small>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-top-0 p-4 pt-0">
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Course -->
+            <div class="col-md-6 col-lg-4 course-card-item" data-category="security">
+                <div class="card h-100 border-0 shadow-sm course-card hover-lift">
+                    <div class="card-body p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 p-3 mb-4 bg-red text-white" style="--bs-bg-opacity: .1; color: #ef4444!important;">
+                            <i class="bi bi-shield-lock fs-2"></i>
+                        </div>
+                        <h5 class="card-title mb-3 course-title">Cyber Security Expert</h5>
+                        <p class="card-text text-secondary mb-4 course-description">Protect systems and networks from digital attacks. Learn ethical hacking and security audits.</p>
+                        <div class="d-flex justify-content-between align-items-center border-top pt-3">
+                            <small class="text-muted"><i class="bi bi-clock me-1"></i> 5 Months</small>
+                            <small class="text-muted"><i class="bi bi-bar-chart me-1"></i> Advanced</small>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-top-0 p-4 pt-0">
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="noResults" class="text-center py-5" style="display: none;">
+            <div class="text-muted">
+                <i class="bi bi-search display-1 mb-3 d-block"></i>
+                <h4>No courses found</h4>
+                <p>Try adjusting your search or filter criteria</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
