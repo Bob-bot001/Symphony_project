@@ -2,7 +2,7 @@
 
 namespace symphony.Models
 {
-    public class users
+    public class Users
     {
         [Key]
         public int user_id { get; set; }
@@ -14,7 +14,13 @@ namespace symphony.Models
 
         public string? user_role { get; set; }
 
+       
+        public bool IsActive { get; set; }
+
 
     }
 
 }
+
+
+

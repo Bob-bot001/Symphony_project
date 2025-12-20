@@ -3,11 +3,21 @@
 
 public class AdminController : Controller
 {
-    public IActionResult Dashboard()
-    {
-        if (HttpContext.Session.GetString("UserRole") != "Admin")
-            return RedirectToAction("Login", "Account");
 
-        return View();
+    public class Admin : Controller
+    {
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+
+
+        public IActionResult admindashboard()
+        {
+            return View();
+        }
+        
     }
 }

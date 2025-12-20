@@ -1,8 +1,393 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<section class="hero-section" id="hero">
+    <div class="hero-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container">
+        <div class="row align-items-center min-vh-100 py-5">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="hero-badge mb-4">
+                    <i class="bi bi-mortarboard me-2"></i>
+                    Learn From 20,000+ Quality Courses
+                </div>
+
+                <h1 class="hero-title mb-4">
+                    Best Platform to <span class="text-gradient">Empower Skills</span>
+                </h1>
+
+                <p class="hero-description mb-4">
+                    Join Symphony Limited and unlock your potential with industry-recognized certifications, expert faculty, and hands-on training that prepares you for real-world success.
+                </p>
+
+                <div class="hero-buttons mb-4">
+                    <a asp-controller="Home" asp-action="Courses" class="btn btn-primary btn-lg me-3">
+                        Start Learning Now <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                    <a asp-controller="Home" asp-action="About" class="btn btn-outline-primary btn-lg">
+                        Learn More
+                    </a>
+                </div>
+
+                <p class="hero-note">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    Start Your Education Journey, For a Better Future
+                </p>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="hero-card-wrapper">
+                    <div class="hero-floating-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="hero-card-icon me-3">
+                                <i class="bi bi-people-fill"></i>
+                            </div>
+                            <div>
+                                <h3 class="mb-0">100K+</h3>
+                                <p class="mb-0 text-muted">Total Enrolled Students</p>
+                            </div>
+                        </div>
+                        <div class="avatar-group">
+                            <div class="avatar">A</div>
+                            <div class="avatar">B</div>
+                            <div class="avatar">C</div>
+                            <div class="avatar">D</div>
+                            <div class="avatar">E</div>
+                            <div class="avatar avatar-more">+99K</div>
+                        </div>
+                    </div>
+                    <div class="hero-decoration-1"></div>
+                    <div class="hero-decoration-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <i class="bi bi-chevron-down"></i>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="0">
+                <div class="stat-item text-center">
+                    <h2 class="stat-number">10,000+</h2>
+                    <p class="stat-label">Students Trained</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-item text-center">
+                    <h2 class="stat-number">95%</h2>
+                    <p class="stat-label">Success Rate</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-item text-center">
+                    <h2 class="stat-number">15+</h2>
+                    <p class="stat-label">Courses Offered</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat-item text-center">
+                    <h2 class="stat-number">50+</h2>
+                    <p class="stat-label">Expert Faculty</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section class="categories-section py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Top Categories</h2>
+            <p class="section-description">Explore our wide range of IT courses designed to help you master the skills in demand</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="0">
+                <a asp-controller="Home" asp-action="Courses" class="category-card text-decoration-none">
+                    <div class="category-icon bg-blue">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <span class="category-name">Programming</span>
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="50">
+                <a asp-controller="Home" asp-action="Courses" class="category-card text-decoration-none">
+                    <div class="category-icon bg-green">
+                        <i class="bi bi-hdd-network"></i>
+                    </div>
+                    <span class="category-name">Networking</span>
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+                <a asp-controller="Home" asp-action="Courses" class="category-card text-decoration-none">
+                    <div class="category-icon bg-purple">
+                        <i class="bi bi-database"></i>
+                    </div>
+                    <span class="category-name">Database</span>
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="150">
+                <a asp-controller="Home" asp-action="Courses" class="category-card text-decoration-none">
+                    <div class="category-icon bg-orange">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <span class="category-name">Web Dev</span>
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
+                <a asp-controller="Home" asp-action="Courses" class="category-card text-decoration-none">
+                    <div class="category-icon bg-cyan">
+                        <i class="bi bi-cloud"></i>
+                    </div>
+                    <span class="category-name">Cloud</span>
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="250">
+                <a asp-controller="Home" asp-action="Courses" class="category-card text-decoration-none">
+                    <div class="category-icon bg-red">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <span class="category-name">Security</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section py-5 bg-light">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="feature-card h-100">
+                    <div class="row g-0 h-100">
+                        <div class="col-sm-7 p-4 d-flex flex-column justify-content-center">
+                            <span class="feature-label text-primary">Learn together with</span>
+                            <h3 class="feature-title">Expert Teachers</h3>
+                            <p class="feature-description">If you've been researching exactly what skill you want to develop, our expert faculty is here to guide you.</p>
+                            <a href="courses.html" class="btn btn-primary w-fit">View All Courses</a>
+                        </div>
+                        <div class="col-sm-5 feature-visual bg-gradient-primary">
+                            <div class="feature-icons-grid">
+                                <div class="feature-icon-box"><i class="bi bi-book"></i></div>
+                                <div class="feature-icon-box"><i class="bi bi-people"></i></div>
+                                <div class="feature-icon-box"><i class="bi bi-trophy"></i></div>
+                                <div class="feature-icon-box"><i class="bi bi-mortarboard"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="feature-card h-100">
+                    <div class="row g-0 h-100">
+                        <div class="col-sm-7 p-4 d-flex flex-column justify-content-center">
+                            <span class="feature-label text-warning">Get the skills</span>
+                            <h3 class="feature-title">For Individuals</h3>
+                            <p class="feature-description">If you've been researching exactly what skill you want to develop, find your perfect course here.</p>
+                            <a href="entrance-exam.html" class="btn btn-outline-primary w-fit">Find Your Course</a>
+                        </div>
+                        <div class="col-sm-5 feature-visual bg-gradient-warning">
+                            <div class="feature-circle">
+                                <i class="bi bi-mortarboard-fill"></i>
+                                <span class="feature-badge">A+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="courses-section py-5">
+    <div class="container">
+        <div class="section-header d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center mb-5 gap-3" data-aos="fade-up">
+            <div>
+                <h2 class="section-title mb-2">Popular Courses</h2>
+                <p class="section-description mb-0">Explore our most enrolled certification programs</p>
+            </div>
+            <a href="courses.html" class="btn btn-outline-primary">
+                View All Courses <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+        </div>
+
+        <div class="row g-4">
+            <!-- Course Card 1 -->
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="course-card">
+                    <div class="course-image bg-blue">
+                        <div class="course-icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-badges mb-3">
+                            <span class="badge bg-secondary">Programming</span>
+                            <span class="badge bg-outline">Includes Basics</span>
+                        </div>
+                        <h4 class="course-title">Complete Java Development</h4>
+                        <p class="course-description">Master Java programming from basics to advanced concepts including OOP, data structures, and enterprise development.</p>
+                        <div class="course-meta">
+                            <span><i class="bi bi-clock me-1"></i> 6 months</span>
+                            <span class="course-price"><i class="bi bi-currency-dollar"></i> 6,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course Card 2 -->
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="course-card">
+                    <div class="course-image bg-green">
+                        <div class="course-icon">
+                            <i class="bi bi-hdd-network"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-badges mb-3">
+                            <span class="badge bg-secondary">Networking</span>
+                            <span class="badge bg-outline">Includes Basics</span>
+                        </div>
+                        <h4 class="course-title">Networking & CCNA</h4>
+                        <p class="course-description">Comprehensive networking course covering fundamentals to Cisco certification preparation.</p>
+                        <div class="course-meta">
+                            <span><i class="bi bi-clock me-1"></i> 6 months</span>
+                            <span class="course-price"><i class="bi bi-currency-dollar"></i> 6,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course Card 3 -->
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="course-card">
+                    <div class="course-image bg-purple">
+                        <div class="course-icon">
+                            <i class="bi bi-database"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-badges mb-3">
+                            <span class="badge bg-secondary">Database</span>
+                            <span class="badge bg-outline">Includes Basics</span>
+                        </div>
+                        <h4 class="course-title">Oracle Database Admin</h4>
+                        <p class="course-description">Learn Oracle database management, SQL, PL/SQL, and enterprise database solutions.</p>
+                        <div class="course-meta">
+                            <span><i class="bi bi-clock me-1"></i> 6 months</span>
+                            <span class="course-price"><i class="bi bi-currency-dollar"></i> 6,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course Card 4 -->
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="course-card">
+                    <div class="course-image bg-purple">
+                        <div class="course-icon">
+                            <i class="bi bi-database"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-badges mb-3">
+                            <span class="badge bg-secondary">Database</span>
+                            <span class="badge bg-warning-subtle text-warning">Advanced</span>
+                        </div>
+                        <h4 class="course-title">SQL Server Mastery</h4>
+                        <p class="course-description">Complete SQL Server training from basics to advanced administration and development.</p>
+                        <div class="course-meta">
+                            <span><i class="bi bi-clock me-1"></i> 4 months</span>
+                            <span class="course-price"><i class="bi bi-currency-dollar"></i> 4,275</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course Card 5 -->
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="course-card">
+                    <div class="course-image bg-orange">
+                        <div class="course-icon">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-badges mb-3">
+                            <span class="badge bg-secondary">Web Development</span>
+                            <span class="badge bg-outline">Includes Basics</span>
+                        </div>
+                        <h4 class="course-title">Full Stack Web Dev</h4>
+                        <p class="course-description">Modern web development with React, Node.js, and cloud deployment strategies.</p>
+                        <div class="course-meta">
+                            <span><i class="bi bi-clock me-1"></i> 6 months</span>
+                            <span class="course-price"><i class="bi bi-currency-dollar"></i> 6,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course Card 6 -->
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="course-card">
+                    <div class="course-image bg-blue">
+                        <div class="course-icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-badges mb-3">
+                            <span class="badge bg-secondary">Programming</span>
+                            <span class="badge bg-warning-subtle text-warning">Advanced</span>
+                        </div>
+                        <h4 class="course-title">Advanced Java Certification</h4>
+                        <p class="course-description">For experienced developers looking to advance their Java skills with enterprise patterns.</p>
+                        <div class="course-meta">
+                            <span><i class="bi bi-clock me-1"></i> 4 months</span>
+                            <span class="course-price"><i class="bi bi-currency-dollar"></i> 4,275</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section py-5">
+    <div class="container">
+        <div class="cta-content text-center" data-aos="zoom-in">
+            <h2 class="cta-title mb-3">Ready to Start Your Journey?</h2>
+            <p class="cta-description mb-4">Take the first step towards a successful IT career. Apply for our entrance examination today and unlock your potential.</p>
+            <div class="cta-buttons">
+                <a asp-controller="Home" asp-action="EntranceExam" class="btn btn-light btn-lg me-3">
+                    Apply for Entrance Exam
+                </a>
+                <a asp-controller="Home" asp-action="Contact" class="btn btn-light btn-lg me-3">
+                    Contact Us
+
+                </a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
