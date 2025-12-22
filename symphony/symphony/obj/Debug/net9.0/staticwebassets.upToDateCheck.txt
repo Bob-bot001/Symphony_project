@@ -1,5 +1,7 @@
+wwwroot\css\login.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\login.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -123,3 +125,5 @@ C:\Users\asc\Documents\Symphony_project\symphony\symphony\wwwroot\lib\bootstrap\
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\wwwroot\js\site.js
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\wwwroot\favicon.ico
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\wwwroot\css\site.css
+C:\Users\asc\Documents\Symphony_project\symphony\symphony\wwwroot\css\login.css
+C:\Users\asc\Documents\Symphony_project\symphony\symphony\wwwroot\js\login.js

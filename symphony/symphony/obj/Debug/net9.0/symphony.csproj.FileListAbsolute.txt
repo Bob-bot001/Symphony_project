@@ -364,9 +364,7 @@ C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\rjsmc
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\scopedcss\bundle\symphony.styles.css
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\scopedcss\projectbundle\symphony.bundle.scp.css
-C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\l2fymj23rn-b9sayid5wm.gz
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\1ikki97kp0-61n19gt1b8.gz
-C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\0r2lkwi1ue-xtxxf3hu2r.gz
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\q94bgg32bx-t1cqhe9u97.gz
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\8r758ckgj0-c2jlpeoesf.gz
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\7ux1u0sw3z-sejl45xvog.gz
@@ -439,3 +437,7 @@ C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\refin
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\symphony.pdb
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\symphony.genruntimeconfig.cache
 C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\ref\symphony.dll
+C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\tzh40fj15u-9rbvtb2wtl.gz
+C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\vdml1j61ix-3r8b2a0bt1.gz
+C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\l2fymj23rn-hke9ucjz57.gz
+C:\Users\asc\Documents\Symphony_project\symphony\symphony\obj\Debug\net9.0\compressed\0r2lkwi1ue-31h3lur6aj.gz
