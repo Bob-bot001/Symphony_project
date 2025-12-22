@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
+using symphony.Models;
+
+namespace symphony.Controllers;
 
 public class AdminController : Controller
 {
 
-    public class Admin : Controller
-    {
-
-        public IActionResult Index()
+  
+    public IActionResult Index()
         {
             return View();
         }
@@ -16,8 +18,13 @@ public class AdminController : Controller
 
         public IActionResult admindashboard()
         {
-            return View();
-        }
+        if (HttpContext.Session.GetString("UserRole") != "Admin")
+            return RedirectToAction("Login", "Account");
+
+        return View();
         
-    }
+        }
+
+        
+    
 }
